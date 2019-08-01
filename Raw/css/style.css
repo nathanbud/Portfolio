@@ -26,5 +26,11 @@ html, body{
 
 .main-section-4{
     background: firebrick;
+}
 
+.portfolio article{
+    width:25%;
+    height:auto;
+    border: 1px solid #000;
+    font-display: grid;
 }
