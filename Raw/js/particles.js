@@ -20,23 +20,23 @@ var pJS = function(tag_id, params){
     },
     particles: {
       number: {
-        value: 400,
+        value: 30,
         density: {
           enable: true,
-          value_area: 800
+          value_area: 400
         }
       },
       color: {
-        value: '#fff'
+        value: '#f23b3b'
       },
       shape: {
-        type: 'circle',
+        type: 'triangle',
         stroke: {
-          width: 0,
+          width: .5,
           color: '#ff0000'
         },
         polygon: {
-          nb_sides: 5
+          nb_sides: 6
         },
         image: {
           src: '',
@@ -45,22 +45,22 @@ var pJS = function(tag_id, params){
         }
       },
       opacity: {
-        value: 1,
+        value: 0.1928869588904997,
         random: false,
         anim: {
           enable: false,
-          speed: 2,
-          opacity_min: 0,
-          sync: false
+          speed:0.192675999188477,
+          opacity_min: 0.3,
+          sync: true
         }
       },
       size: {
-        value: 20,
-        random: false,
+        value: 3,
+        random: true,
         anim: {
           enable: false,
-          speed: 20,
-          size_min: 0,
+          speed: 40,
+          size_min: 0.1,
           sync: false
         }
       },
@@ -68,12 +68,12 @@ var pJS = function(tag_id, params){
         enable: true,
         distance: 100,
         color: '#fff',
-        opacity: 1,
-        width: 1
+        opacity: .06,
+        width: .7
       },
       move: {
         enable: true,
-        speed: 2,
+        speed: 6,
         direction: 'none',
         random: false,
         straight: false,
@@ -81,8 +81,8 @@ var pJS = function(tag_id, params){
         bounce: false,
         attract: {
           enable: false,
-          rotateX: 3000,
-          rotateY: 3000
+          rotateX: 600,
+          rotateY: 1200
         }
       },
       array: []
@@ -109,7 +109,7 @@ var pJS = function(tag_id, params){
         },
         bubble:{
           distance: 200,
-          size: 80,
+          size: 40,
           duration: 0.4
         },
         repulse:{
