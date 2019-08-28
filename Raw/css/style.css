@@ -111,6 +111,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d011e', end
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main-container{
@@ -122,3 +126,18 @@ h1.iam{
   font-size: calc(100px + 3vh);
   color:red;
 }
+
+.parallax { 
+  /* The image used */
+
+  /* Set a specific height */
+  height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
